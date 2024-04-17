@@ -3,7 +3,9 @@ package class18;
 import java.util.Arrays;
 
 public class QuickSortDemo {
-    static void quickSort(int[] arr){hiddenMethod(arr, 0, arr.length - 1);}
+    static void quickSort(int[] arr){
+        hiddenMethod(arr, 0, arr.length - 1);
+    }
     private static void hiddenMethod(int[] arr, int low, int high) {
 		// TODO Auto-generated method stub
     	if (low < high) {
